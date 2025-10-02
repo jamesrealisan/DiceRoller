@@ -10,6 +10,7 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var diceImage: ImageView
     private lateinit var rollButton: Button
+    private lateinit var helloText: TextView
 
     private val diceFaces = listOf(
         R.drawable.dice_1,
